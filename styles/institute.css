@@ -25,3 +25,21 @@ img {
     gap: 5px;
     /* flex: 1; */
 }
+/* Responsive Media Qurey */
+@media screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    } 
+    .box-collage{
+        grid-template-columns: auto;
+    }
+}
+
+/* Media device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    } 
+}
